@@ -1,0 +1,331 @@
+
+html {
+    font-size: 16px;
+}
+
+
+body {
+	
+	margin: 0 auto; 
+	font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-size: 1em;
+}
+
+h1, 
+h3, 
+h4 {
+	color: black; 
+	text-transform: uppercase; 
+}
+
+h1 {
+	font-size: 1.875em; 
+	text-align: center; 
+	width: auto; 
+	padding: 15px 0;
+	border-bottom: 3px solid #77a466;
+}
+
+h3 {
+	font-size: 1.125em; 
+	text-align: center; 
+	padding: 15px;
+}
+
+h4 {
+	font-size: 0.75em;
+}
+
+/*****Top-section*****/
+
+.main-image img {
+	width: 100%;
+}
+.main-title h3 {
+	text-align: center; 
+	padding: 0px 20px; 
+	text-transform: uppercase; 
+	color: #77a466; 
+}
+
+p {
+	
+	line-height: 1.31em; 
+	font-size: 0.875em;
+}
+
+
+  /* Mobile styles here */
+
+/***** Logo & Navigation*****/
+
+header {
+    width: 90%; 
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+header span {
+	      color: #77a466;
+}
+
+header h1 {
+	font-size: 1.875em; 
+    margin: auto;
+}
+
+
+header nav {
+	    text-align: center;
+		padding: 20px;
+
+	
+}
+
+
+
+header nav a {
+		text-decoration:none;
+		Text-transform: uppercase;
+		font-weight: bold;
+		color: #77a466;
+		font-size: 0.875em; 
+		padding: 20px;
+		display: block;
+
+
+}
+
+
+/*****Top-section*****/
+
+.main-image {
+width: 100%;  
+margin: 0 auto;
+}
+
+.main-title {
+	width: 100%;
+    height: auto;
+
+
+}
+
+
+.main-title p {
+    padding: 20px;
+    line-height: 25px;
+	font-size: 1em;
+	
+}
+
+
+
+/*****Bottom-Section*****/
+
+.section-one, 
+.section-two, 
+.section-three {
+	width: 90%; 
+	height: auto; 
+	float: none; 
+	border-top: 1px solid #eee;
+	padding: 0 20px;
+}
+.section-one, 
+.section-two {
+	border-right: 1px solid #eee;
+}
+
+
+
+
+
+.menu {
+	list-style: none; 
+	padding: 0px;
+}
+
+.menu li {
+	padding: 10px 0; 
+	color:#77a466;
+}
+
+.reviews {
+	color: #333; 
+	line-height: 1.31em; 
+	font-size: 1em;
+}
+
+.address {
+	font-size: 1em; 
+	line-height: 1.5em;
+}
+
+
+
+/*****Footer-Section*****/
+
+/*The widths are in a percentage!*/
+footer {
+	width: 100%; 
+	height: 3.125em; 
+	border-top: 3px solid #eee; 
+	margin: 0 auto; 
+	text-align: center;
+}
+
+footer span {
+	font-family: "Wisdom Script", script; 
+	text-transform: lowercase; 
+	color: #77a466; 
+	font-size: 0.875px;
+}
+
+
+/*****Tablet*****/
+/***Portrait Table is going to stay the same as mobile***/
+
+@media (min-width:768px){
+
+}
+
+/*****Desktop*****/
+
+@media (min-width: 940px) {
+
+/*****Header&Logo*****/
+
+/*The widths are in a percentage!*/
+header {
+	width: 100%; 
+	border-bottom: 3px solid #77a466; 
+	margin: 0 auto;
+}
+
+header h1 {
+    float: left;
+    text-align: left;
+    border-bottom: none;
+  }
+
+
+
+header nav {
+	float: right; 
+	padding: 45px 0px;
+}
+
+header nav a {
+	text-decoration: none; 
+	text-transform: uppercase; 
+	font-weight: bold; 
+	font-size: 0.875em; 
+	padding: 0 10px; 
+	color:#77a466;
+	display: inline;
+}
+
+
+/*****Top-Section*****/
+
+/*The widths are in a percentage!*/
+.top-section, 
+.bottom-section {
+	width: 100%; 
+	margin: 0 auto; 
+	clear: both;
+}
+
+.main-image {
+	width: 100%;  
+	float: left;
+}
+
+.main-image img {
+	width: 100%; 
+	border-bottom: 3px solid #77a466;
+}
+
+.main-title {
+	width: 100%; 
+	height: auto; 
+	float: left;
+}
+
+.main-title p {
+	padding: 20px; 
+	line-height: 1.56em; 
+	font-size: 1em;
+}
+
+
+/*****Bottom-Section*****/
+
+.section-one, 
+.section-two, 
+.section-three {
+	width: 33%; 
+	height: auto; 
+	float: left; 
+	border-top: 1px solid #eee;
+	text-align: center;
+	padding: 20px 0;
+}
+
+.section-one, 
+.section-two {
+	border-right: 1px solid #eee;
+}
+
+
+
+
+
+.menu {
+	list-style: none; 
+
+}
+
+.menu li {
+	padding: 10px 0; 
+	color:#77a466;
+}
+
+.reviews {
+	color: #333; 
+	line-height: 1.31em; 
+	font-size: 1em;
+}
+
+.reviews p{
+	padding: 0px 30px; 
+}
+
+.address {
+	font-size: 1em; 
+	line-height: 1.5em;
+}
+
+
+
+/*****Footer-Section*****/
+
+/*The widths are in a percentage!*/
+footer {
+	width: 100%; 
+	height: 3.125em; 
+	border-top: 3px solid #eee; 
+	margin: 0 auto; 
+	clear: both; 
+	text-align: center;
+}
+
+footer span {
+	font-family: "Wisdom Script", script; 
+	text-transform: lowercase; 
+	color: #77a466; 
+	font-size: 0.875px;
+}
+
+}
