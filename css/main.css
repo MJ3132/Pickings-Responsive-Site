@@ -8,7 +8,9 @@ body {
 	
 	margin: 0 auto; 
 	font-family: Montserrat, Helvetica, Arial, sans-serif;
-    font-size: 1em;
+	font-size: 1em;
+	width: 97%;
+	padding: 2%;
 }
 
 h1, 
